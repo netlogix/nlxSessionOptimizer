@@ -1,0 +1,6 @@
+suites:
+  default:
+    namespace: nlxSessionOptimizer
+    psr4_prefix: nlxSessionOptimizer
+    spec_path: ./
+    src_path: ./
