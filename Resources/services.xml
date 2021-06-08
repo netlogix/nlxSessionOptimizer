@@ -4,7 +4,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <!-- Subscribers -->
-        <service id="nlx.cs_cleanup_prices.subscriber.cronjob" class="nlxCsCleanupPrices\Subscriber\Cronjob">
+        <service id="nlx.session_optimizer.subscriber.cronjob" class="nlxSessionOptimizer\Subscriber\Cronjob">
             <argument type="expression">service('kernel')</argument>
             <tag name="shopware.event_subscriber" />
         </service>
